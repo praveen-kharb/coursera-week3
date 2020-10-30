@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    background-color: yellow;
+}
+.class{
+    font-weight: bold;
+    font-size: larger;
+}
+.hover:hover{
+    background-color: white;
+}
+.first{
+    padding: 0px;
+}
+.block{
+    background-color: tomato;
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+}
+@media screen and (min-width:767px){
+.displayed{
+   display:none;
+}
+}
+.heading {
+    margin-left: 0px;
+}
